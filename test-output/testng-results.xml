@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="60131" started-at="2016-08-29T02:01:07Z" finished-at="2016-08-29T02:02:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="60131" started-at="2016-08-29T02:01:07Z" finished-at="2016-08-29T02:02:07Z">
+      <class name="TestPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestPage@29ee9faa]" name="setup" is-config="true" duration-ms="4376" started-at="2016-08-28T19:01:07Z" finished-at="2016-08-28T19:01:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:TestPage@29ee9faa]" name="login" duration-ms="38858" started-at="2016-08-28T19:01:11Z" finished-at="2016-08-28T19:01:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dzaras777@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mikel55555]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="validateFavoriteStarItem()[pri:0, instance:TestPage@29ee9faa]" name="validateFavoriteStarItem" duration-ms="1353" started-at="2016-08-28T19:01:50Z" finished-at="2016-08-28T19:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFavoriteStarItem -->
+        <test-method status="PASS" signature="fileUploadingTest()[pri:0, instance:TestPage@29ee9faa]" name="fileUploadingTest" duration-ms="14926" started-at="2016-08-28T19:01:51Z" finished-at="2016-08-28T19:02:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUploadingTest -->
+        <test-method status="PASS" signature="closing()[pri:0, instance:TestPage@29ee9faa]" name="closing" is-config="true" duration-ms="583" started-at="2016-08-28T19:02:06Z" finished-at="2016-08-28T19:02:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- TestPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
